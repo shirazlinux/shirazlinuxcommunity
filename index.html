@@ -1,31 +1,500 @@
+
 <!DOCTYPE html>
-<html lang="fa">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="وب‌سایت همایش گنو/لینوکس ">
-    <meta name="keywords" content="همایش لینوکس, همایش جامعه لینوکس شیراز, همایش لینوکس شیراز, همایش گنو لینوکس, همایش لاگ, جامعه لینوکس شیراز">
-    <meta name="author" content="shirazlinuxcommunity Contributors">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="DC.title" content="Hafez Hall" />
-    <meta name="geo.region" content="IR-14" />
-    <meta name="geo.placename" content="Shiraz" />
-    <meta name="geo.position" content="29.626700271158434;52.55650692365048" />
-    <meta name="ICBM" content="29.626700271158434, 52.55650692365048" />
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="shirazlinuxcommunity">
-    <meta name="twitter:title" content="همايش گنو/لينوكس شیراز">
-    <meta name="twitter:description" content="با افتخار، برگزارى همايش گنو/لينوكس جامعه لینوکس شیراز را به عمل مى‌آوريم. اين بار در شیراز، پايتخت فرهنگى ايران، مهد تمدن، فرهنگ و هنر اصيل پارسى.">
-    <meta name="twitter:image:alt" content="در عکس گفتیم همایش گنو/ لینوکس جامعه لینوکس شیراز و شما رو دعوت می‌کنیم که به این همایش در شیراز پایتخت فرهنگ و هنر ایران شرکت کنید">
-    <meta property="og:description" content="با افتخار، برگزارى همايش گنو/لينوكس جامعه لینوکس شیراز را به عمل مى‌آوريم. اين بار در شیراز، پايتخت فرهنگى ايران، مهد تمدن، فرهنگ و هنر اصيل پارسى." />
-    <meta property="og:title" content="همايش گنو/لينوكس جامعه لینوکس شیراز" />
-    <title>همايش گنو/لينوكس جامعه لینوکس شیراز</title>
-    <script type="module" crossorigin src="/assets/index-8ae7f034.js"></script>
-    <link rel="stylesheet" href="/assets/index-f7c59966.css">
-  </head>
-  <body dir="rtl">
-    <div id="root"></div>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon"  href="pic/55566.png" />
+    <title>جامعه لینوکسی شیراز</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script data-cfasync="false" type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script>
+        var $a= $.noConflict(true);
+        $a(window).scroll(function(){
+            if ($a(window).scrollTop() >= 500) {
+                $a('.cg-menu-below').addClass('fixed-header');
+            }
+            else {
+                $a('.cg-menu-below').removeClass('fixed-header');
+            }
+        });
+    </script> -->
+    <style>
+        /* CSS code for the responsive template */
+        
+        * {
+            box-sizing: border-box;
+            
+        }
+
+        body {
+            background: #d7dadc; background: -moz-linear-gradient(to bottom,  #d7dadc 0%,#edf3f3 100%); background: -webkit-linear-gradient(to bottom,  #d7dadc 0%,#edf3f3 100%); background: linear-gradient(to bottom,  #d7dadc 0%,#edf3f3 100%);
+            direction: rtl;
+            margin: 0;
+            font-family: Vazirmatn, sans-serif !important;
+        }
+
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar {
+            position: fixed !important;
+            width: 100%;
+            padding: 0 !important;
+            overflow: hidden;
+            background-color: #333;
+            border-bottom: 5px solid rgb(247, 143, 7);
+           
+            
+        }
+
+        .navbar a {
+            font-size: 20px;
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: greenyellow;
+        }
+
+        .navbar img {
+            max-width: 100%;
+            width: 60px;
+        }
+        .shirazlinux {
+            padding-top: 64px;
+            
+        }
+        .shirazlinux>img {
+            max-width: 100%;
+            opacity: 100%;
+            width: 30%;
+        }
+        .shirazlinux .right1 {
+            padding-top: 10px;
+            float: left;
+            width: 69%;
+        }
+        .shirazlinux .right1 > p {
+            padding-top: 10px;
+            font-size: 20px;
+            text-shadow: 2px 0px 12px green;
+        }
+        .shirazlinux .right1 > h1 {
+            color: #f1592c;
+            text-shadow: 1px -1px 3px black;
+        }
+        .row {
+            max-width: 100%;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .footer {
+          background-color:#333 ;
+          padding-top :10px ;
+          padding-bottom :2px ;
+          color:white ;
+          text-align :center ;
+        }
+        .clear {
+            clear: both;
+        }
+
+        /*  evnt */
+
+        .event {
+            padding: 5px;
+            height: 700px !important;
+           
+            
+        }
+        .event > p {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 5px 8px 8px red;
+            
+        }
+        .event .postevent {
+            padding-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .event .postevent .event27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 0 1%;
+            width: 22%;
+            text-align: center;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px rgb(244, 147, 147);
+        }
+        
+        .event .postevent .event27 h3{
+            padding-top: 10px;
+            color: #214a02;
+
+        }
+        .event .postevent .event27 img {
+            max-width: 100%;
+            padding-bottom: 5%;
+        }
+        .event .postevent .event27 .cre{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+           
+        }
+        .event .postevent .event27 .cre:hover{
+            color: rgb(42, 0, 255);
+            background-color: rgb(219, 247, 247);
+        }
+
+        /* conferance */
+
+        .conference {
+            
+            height: 700px !important;
+            padding: 5px;
+            
+        }
+        .conference > p {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 5px 8px 8px rgb(46, 42, 154);
+            
+        }
+        .conference .postconf {
+            padding-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .conference .postconf .conf27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 0 1%;
+            width: 22%;
+            text-align: center;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px rgb(43, 103, 27);
+        }
+        
+        .conference .postconf .conf27 h3{
+            padding-top: 10px;
+            color: #214a02;
+
+        }
+        .conference .postconf .conf27 img {
+            max-width: 100%;
+            padding-bottom: 5%;
+        }
+        .conference .postconf .conf27 .cre{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+           
+        }
+        .conference .postconf .conf27 .cre:hover{
+            color: rgb(42, 0, 255);
+            background-color: rgb(219, 247, 247);
+        }
+
+        @media screen and (max-width: 735px){
+        .event .postevent .event27 a{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        
+    }
+        .event .postevent .event27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 4% 2%;
+            width: 46% !important;
+            text-align: center;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px rgb(244, 147, 147);
+        }
+        .conference .postconf .conf27 a{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        
+    }
+        .conference .postconf .conf27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 4% 2%;
+            width: 46% !important;
+            text-align: center;
+            padding-bottom: 50px;
+           
+        }
+        
+        }
+        @media screen and (max-width: 550px){
+            .conference .postconf .conf27 h3{
+                font-size: 18px;
+            }
+
+        }
+        @media screen and (max-width: 500px){
+        .navbar>img {
+            display: none;
+            
+        }
+        .event > p {
+            font-size: 28px;
+        }
+        .conference > p {
+            font-size: 28px;
+        }
+        .shirazlinux {
+            padding-top:45px;
+        }
+        .shirazlinux .right1 > p {
+            font-size: 16px;
+        }
+        .shirazlinux .right1 > h1 { 
+            font-size: 25px;
+            text-shadow: none !important;
+        }
+        .event .postevent .event27 .cre  {
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        }
+        .conference .postconf .conf27 .cre  {
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        }
+        
+    }
+    @media screen and (max-width: 420px){
+        .conference .postconf .conf27 h3{
+            font-size: 12px;
+        }
+        .conference > p {
+            font-size: 25px;
+        }
+        .event > p {
+            font-size: 25px;
+        }
+
+    }
+
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+<!-- <img src="IMG_8493.JPG" alt=""> -->
+<div class="navbar fixed-header">
     
-  </body>
+    <!-- <h1>جامعه لینوکسی شیراز</h1> -->
+    <a href="#top">صفحه اصلی</a>
+    <a href="#event">نشست ها</a>
+    <a href="#conference">همایش ها</a>
+    <a href="#">درباره ما</a>
+    <img src="pic/55566.png" alt="">
+</div>
+<div class="clear">
+
+</div>
+
+<div class="shirazlinux" id="top">
+    <img src="pic/IMG_8456.JPG" alt="">
+    <div class="right1">
+        <h1>
+            جامعه لینوکسی شیراز | ‌ShirazLinux Community
+        </h1>
+        <p>
+            جامعه لینوکسی شیراز، جایی برای افرادی است که به فناوری و جامعه باز و متن باز علاقه‌مندند.<br> با هم‌نشینی در این جامعه، می‌توانید از دانش و تجربیات یکدیگر بهره‌مند شوید و با هم به رشد و پیشرفت جامعه لینوکسی در شیراز کمک کنید. <br> به ما بپیوندید و همراه با ما باشید! #لینوکس #شیراز #جامعه_لینوکسی_شیراز
+        </p>
+    </div>
+</div>
+<div class="clear"></div>
+    <hr>
+
+<div class="event" id="event">
+    <p>
+        نشست های جامعه لینوکسی شیراز
+    </p>
+    <div class="postevent" >
+        <div class="event27">
+            <h3>نشست شماره ۱</h3>
+            <img src="pic/jashn.JPG" alt="">
+       
+            <p>تاریخ برگزاری : پنج شنبه ۲۶ ام شهریور ماه</p>
+            <a href="" class="cre">اطلاعات بیشتر</a>
+        </div>
+    </div>
+</div>
+
+
+
+<hr>
+<div class="conference" id="conference">
+    <p>
+        همایش های جامعه لینوکسی شیراز
+    </p>
+    <div class="postconf" >
+        <div class="conf27">
+            <h3>
+                همایش گنو/لینوکس
+            </h3>
+            <img src="pic/gnulinux.png" alt="">
+       
+            <p>تاریخ برگزاری : پنج شنبه ۲۲ ام تیر ماه</p>
+            <a href="" class="cre">اطلاعات بیشتر</a>
+        </div>
+        <div class="conf27">
+            <h3>
+                همایش بزرگ دوآپس ایران
+            </h3>
+            <img src="pic/devops.jpg" alt="">
+       
+            <p>تاریخ برگزاری : پنج شنبه ۱۶ ام شهریور ماه</p>
+            <a href="https://devops.shirazcloud.ir/" class="cre">اطلاعات بیشتر</a>
+        </div>                
+    </div>
+</div>
+<hr>
+<div class="row">
+<p>
+    hesal;dfksajdf
+    asdfhakl;gk'l jw
+    aikdf;ak l'gklaje l'kaj'dfjeq;erghals gj[cv kl'qwef 
+    dvckjz 'dklfj s'jfgwer 
+    kflasj dsklfjaoiejrlk m.cv kj a[ejro jdfasd
+    qf kas'oajqwejorkl;fjsadf 
+    vcvkjglf' aoierojqflkkfla klkeujrio[jtflkgf'jsf eq
+    rqwefljew'fgerwogjfwekawefwerg
+    dsfgsd,;fjeklfjaweifjwef
+     dfjakjs dfkweqjitukjfv z;jvsakejr oqwwejurioqwe [erf uf
+     awe fasdfperwiffew 
+     qwe weofjweoifjewfjuhgeuret
+     dfafwqwerj kfejsddf3
+     ]]]]
+</p>
+
+<p>
+    hesal;dfksajdf
+    asdfhakl;gk'l jw
+    aikdf;ak l'gklaje l'kaj'dfjeq;erghals gj[cv kl'qwef 
+    dvckjz 'dklfj s'jfgwer 
+    kflasj dsklfjaoiejrlk m.cv kj a[ejro jdfasd
+    qf kas'oajqwejorkl;fjsadf 
+    vcvkjglf' aoierojqflkkfla klkeujrio[jtflkgf'jsf eq
+    rqwefljew'fgerwogjfwekawefwerg
+    dsfgsd,;fjeklfjaweifjwef
+     dfjakjs dfkweqjitukjfv z;jvsakejr oqwwejurioqwe [erf uf
+     awe fasdfperwiffew 
+     qwe weofjweoifjewfjuhgeuret
+     dfafwqwerj kfejsddf3
+     ]]]]
+</p>
+
+<p>
+    hesal;dfksajdf
+    asdfhakl;gk'l jw
+    aikdf;ak l'gklaje l'kaj'dfjeq;erghals gj[cv kl'qwef 
+    dvckjz 'dklfj s'jfgwer 
+    kflasj dsklfjaoiejrlk m.cv kj a[ejro jdfasd
+    qf kas'oajqwejorkl;fjsadf 
+    vcvkjglf' aoierojqflkkfla klkeujrio[jtflkgf'jsf eq
+    rqwefljew'fgerwogjfwekawefwerg
+    dsfgsd,;fjeklfjaweifjwef
+     dfjakjs dfkweqjitukjfv z;jvsakejr oqwwejurioqwe [erf uf
+     awe fasdfperwiffew 
+     qwe weofjweoifjewfjuhgeuret
+     dfafwqwerj kfejsddf3
+     ]]]]
+</p>
+
+
+<p>
+    hesal;dfksajdf
+    asdfhakl;gk'l jw
+    aikdf;ak l'gklaje l'kaj'dfjeq;erghals gj[cv kl'qwef 
+    dvckjz 'dklfj s'jfgwer 
+    kflasj dsklfjaoiejrlk m.cv kj a[ejro jdfasd
+    qf kas'oajqwejorkl;fjsadf 
+    vcvkjglf' aoierojqflkkfla klkeujrio[jtflkgf'jsf eq
+    rqwefljew'fgerwogjfwekawefwerg
+    dsfgsd,;fjeklfjaweifjwef
+     dfjakjs dfkweqjitukjfv z;jvsakejr oqwwejurioqwe [erf uf
+     awe fasdfperwiffew 
+     qwe weofjweoifjewfjuhgeuret
+     dfafwqwerj kfejsddf3
+     ]]]]
+</p>
+
+
+<p>
+    hesal;dfksajdf
+    asdfhakl;gk'l jw
+    aikdf;ak l'gklaje l'kaj'dfjeq;erghals gj[cv kl'qwef 
+    dvckjz 'dklfj s'jfgwer 
+    kflasj dsklfjaoiejrlk m.cv kj a[ejro jdfasd
+    qf kas'oajqwejorkl;fjsadf 
+    vcvkjglf' aoierojqflkkfla klkeujrio[jtflkgf'jsf eq
+    rqwefljew'fgerwogjfwekawefwerg
+    dsfgsd,;fjeklfjaweifjwef
+     dfjakjs dfkweqjitukjfv z;jvsakejr oqwwejurioqwe [erf uf
+     awe fasdfperwiffew 
+     qwe weofjweoifjewfjuhgeuret
+     dfafwqwerj kfejsddf3
+     ]]]]
+</p>
+</div>
+
+<div class="footer">
+  <p>تمامی حقوق محفوظ است. &copy; جامعه لینوکسی شیراز - ۱۴۰۰ </p>
+</div>
+
+</body>
 </html>

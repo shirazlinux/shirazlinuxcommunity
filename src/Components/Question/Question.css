@@ -1,9 +1,0 @@
-.question {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    padding: var(--padding-page);
-    margin-bottom: 17rem;
-}

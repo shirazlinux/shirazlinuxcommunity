@@ -114,8 +114,13 @@
         .clear {
             clear: both;
         }
+
+        /*  evnt */
+
         .event {
             padding: 5px;
+            height: 800px !important;
+            border: green 3px solid;
             
         }
         .event > p {
@@ -151,7 +156,7 @@
         }
         .event .postevent .event27 .cre{
             color: white;
-            font-size: 18px;
+            font-size: 14px;
             text-align: center;
             text-decoration: none !important;
             background-color: rgb(0, 9, 248);
@@ -164,9 +169,59 @@
             background-color: rgb(219, 247, 247);
         }
 
+        /* conferance */
 
+        .conference {
+            padding: 5px;
+            
+        }
+        .conference > p {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 5px 8px 8px rgb(46, 42, 154);
+            
+        }
+        .conference .postconf {
+            padding-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .conference .postconf .conf27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 0 1%;
+            width: 22%;
+            text-align: center;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px rgb(43, 103, 27);
+        }
+        
+        .conference .postconf .conf27 h3{
+            padding-top: 10px;
+            color: #214a02;
 
-        @media screen and (max-width: 700px){
+        }
+        .conference .postconf .conf27 img {
+            max-width: 100%;
+            padding-bottom: 5%;
+        }
+        .conference .postconf .conf27 .cre{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+           
+        }
+        .conference .postconf .conf27 .cre:hover{
+            color: rgb(42, 0, 255);
+            background-color: rgb(219, 247, 247);
+        }
+
+        @media screen and (max-width: 735px){
         .event .postevent .event27 a{
             color: white;
             font-size: 14px;
@@ -186,8 +241,31 @@
             padding-bottom: 50px;
             box-shadow: 10px 10px rgb(244, 147, 147);
         }
+        .conference .postconf .conf27 a{
+            color: white;
+            font-size: 14px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        
+    }
+        .conference .postconf .conf27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 2% 4% 2%;
+            width: 46% !important;
+            text-align: center;
+            padding-bottom: 50px;
+            box-shadow: 10px 10px rgb(244, 147, 147);
         }
+        
+        }
+        @media screen and (max-width: 500px){
+            
 
+        }
         @media screen and (max-width: 500px){
         .navbar>img {
             display: none;
@@ -212,7 +290,15 @@
             border-radius: 10px;
             padding: 3% 25%;
         }
-        
+        .conference .postconf .conf27 .cre  {
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            text-decoration: none !important;
+            background-color: rgb(0, 9, 248);
+            border-radius: 10px;
+            padding: 3% 25%;
+        }
         
     }
     </style>
@@ -228,7 +314,7 @@
     <!-- <h1>جامعه لینوکسی شیراز</h1> -->
     <a href="#top">صفحه اصلی</a>
     <a href="#event">نشست ها</a>
-    <a href="#">همایش ها</a>
+    <a href="#conference">همایش ها</a>
     <a href="#">درباره ما</a>
     <img src="pic/55566.png" alt="">
 </div>
@@ -257,40 +343,42 @@
     <div class="postevent" >
         <div class="event27">
             <h3>نشست شماره ۱</h3>
-            <img src="pic/IMG_473360B0D92C-1.jpeg" alt="">
+            <img src="pic/jashn.JPG" alt="">
        
             <p>تاریخ برگزاری : پنج شنبه ۲۶ ام شهریور ماه</p>
-            <a href="" class="cre">ثبت نام</a>
-        </div>
-
-        <div class="event27">
-            <h3>نشست شماره ۲</h3>
-            <img src="pic/IMG_69B5D20E859E-1.jpeg" alt="">
-            <p>تاریخ برگزاری : پنج شنبه ۲۶ ام شهریور ماه</p>
-            <a href="" class="cre">ثبت نام</a>
-        </div>
-
-        <div class="event27">
-          
-            <h3>نشست شماره ۳</h3>
-            <img src="pic/IMG_473360B0D92C-1.jpeg" alt="">
-        
-            <p>تاریخ برگزاری : پنج شنبه ۲۶ ام شهریور ماه</p>
-            <a href="" class="cre">ثبت نام</a>
-        </div>
-
-        <div class="event27">
-        
-            <h3>نشست شماره ۴</h3>
-            <img src="pic/IMG_69B5D20E859E-1.jpeg" alt="">
-      
-            <p>تاریخ برگزاری : پنج شنبه ۲۶ ام شهریور ماه</p>
-            <a href="" class="cre">ثبت نام</a>
+            <a href="" class="cre">اطلاعات بیشتر</a>
         </div>
     </div>
 </div>
 
 
+
+<hr>
+<div class="conference" id="conference">
+    <p>
+        همایش های جامعه لینوکسی شیراز
+    </p>
+    <div class="postconf" >
+        <div class="conf27">
+            <h3>
+                همایش گنو/لینوکس
+            </h3>
+            <img src="pic/gnulinux.png" alt="">
+       
+            <p>تاریخ برگزاری : پنج شنبه ۲۲ ام تیر ماه</p>
+            <a href="" class="cre">اطلاعات بیشتر</a>
+        </div>
+        <div class="conf27">
+            <h3>
+                همایش بزرگ دوآپس ایران
+            </h3>
+            <img src="pic/devops.jpg" alt="">
+       
+            <p>تاریخ برگزاری : پنج شنبه ۱۶ ام شهریور ماه</p>
+            <a href="ط" class="cre">اطلاعات بیشتر</a>
+        </div>                
+    </div>
+</div>
 </div>
 <div class="row">
 <p>

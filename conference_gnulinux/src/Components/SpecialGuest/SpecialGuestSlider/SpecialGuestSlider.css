@@ -1,0 +1,56 @@
+.special-guest-slider {
+      width: 100% !important;
+      height: fit-content !important;
+      margin-top: 8rem;
+}
+.mySwiper {
+      height: fit-content !important;
+      display: flex;
+      justify-content: center;
+      margin-top: 8rem;
+      align-items: center;
+}
+
+.swiper-slide {
+      height: fit-content !important;
+
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+
+}
+.swiper-button-next {
+      background: url('/main/nextButton.svg');
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      transform: scale(2);
+      margin-left: 1rem;
+}
+.swiper-button-next::after {
+      display: none;
+}
+
+.swiper-button-prev {
+      background: url('/main/prevButton.svg');
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      transform: scale(2);
+      margin-right: 1rem;
+}
+.swiper-button-prev::after {
+      display: none;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+      bottom: 0rem;
+}
+
+@media (max-width:620px) {
+      .swiper-button-next , .swiper-button-prev {
+            display: none;
+      }
+      .special-guest-slider {
+            margin-top: 2rem;
+      }
+}

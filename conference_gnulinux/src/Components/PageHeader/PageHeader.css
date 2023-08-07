@@ -1,0 +1,30 @@
+.page-header {
+      width: 100%;
+      height: 90svh;
+      height: 90vh;
+      min-height: fit-content;
+      background: url("/main/quran-gate.jpg") , rgb(0, 0, 0, 75%);
+      background-blend-mode: darken;
+      background-size: cover;
+      background-position: top;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: start;
+      color: var(--color-white);
+      position: relative;
+      padding: 0 5rem;
+}
+.header-contaienr {
+      width: 100%;
+      height: calc(90vh - 14rem);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+}
+@media (max-width:320px) {
+      .page-header {
+            padding: 0 1rem;
+      }
+}

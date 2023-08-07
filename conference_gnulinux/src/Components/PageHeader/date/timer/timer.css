@@ -1,0 +1,31 @@
+.timer {
+      width: 80%;
+      height: 10rem;
+      display: flex;
+      flex-flow: row-reverse nowrap;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 3.6rem;
+      margin-top: 4rem;
+}
+
+.timer_item > span {
+      display: block;
+}
+@media (max-width:1440px) {
+      .timer {
+      margin-top: 2rem;
+            
+      }
+}
+@media (max-width: 1024px) {
+      .timer {
+            font-size: 3rem;
+      }
+}
+@media (max-width: 768px) {
+      .timer {
+            font-size: 2rem;
+            margin-top: 2rem;
+      }
+}

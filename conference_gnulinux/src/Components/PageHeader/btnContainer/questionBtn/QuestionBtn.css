@@ -1,0 +1,21 @@
+.btn-question {
+      color: var(--color-white);
+      height: 5.6rem;
+      width: 30.6rem;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.2rem;
+      font-family: Medium-vazir;
+      font-weight: 500;
+      border: 2px solid #E3E3E3
+}
+.btn-question > img {
+      margin-left: 1rem;
+}
+@media (max-width:600px) {
+      .btn-question {
+            width: 25rem;
+      }     
+}

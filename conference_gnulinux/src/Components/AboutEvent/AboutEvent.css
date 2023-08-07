@@ -1,0 +1,36 @@
+.about {
+      margin-top: 17rem;
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-flow: row nowrap;
+      padding: var(--padding-page);
+}
+.about__right , .about__left {
+      width: 50%;
+      height: 100%;
+}
+.about__right {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+}
+.about__left {
+      display: flex;
+      justify-content: center;
+      justify-content: center;
+}
+.about__phone {
+      display: none;
+}
+@media (max-width:1100px) {
+      .about__left , .about__right {
+            display: none;
+      }
+      .about__phone {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: space-between;
+      }
+}

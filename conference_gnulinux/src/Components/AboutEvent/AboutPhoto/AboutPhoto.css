@@ -1,0 +1,54 @@
+.about__photo {
+      width: 43rem;
+      height: 43rem;
+      border-radius: 4rem;
+      border: .6rem solid var(--color-primary);
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--color-white);
+}
+.about__photo > img {
+      height: 100%;
+}
+.about__photo::before {
+      content: '';
+      width: 45rem;
+      height: 45rem;
+      position: absolute;
+      background-color: #4425BF;
+      border-radius: 4rem;
+      z-index: -1;
+      transform: rotateZ(-15deg);
+}
+.about__photo:after {
+      content: '';
+      width: 4.9rem;
+      height: 4.9rem;
+      position: absolute;
+      top: -4.7rem;
+      right: 5rem;
+      background: url('/main/Linux.svg');
+}
+
+@media (max-width:620px) {
+      .about__photo {
+            width: 25rem;
+            height: 25rem;
+      }
+      .about__photo::before {
+            width: 27rem;
+            height: 27rem;
+      }
+}
+@media (max-width:320px) {
+      .about__photo {
+            width: 20rem;
+            height: 20rem;
+      }
+      .about__photo:before {
+            width: 22rem;
+            height: 22rem;
+      }
+}

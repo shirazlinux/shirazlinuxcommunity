@@ -1,0 +1,30 @@
+.info-item {
+      width: 10rem;
+      height: 7rem;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+
+}
+.info-item:last-child {
+      width: 15rem;
+}
+.info-item:not(:last-child) {
+      margin-left: 8rem;
+}
+.info-item_number {
+      color: var(--color-primary);
+      font-family: Bold-vazir;
+      font-weight: 700;
+      font-size: 2.4rem;
+}
+.info-item_text {
+      font-weight: 400;
+      font-size: 1.6rem;
+}
+@media (max-width:850px) {
+      .info-item:not(:last-child) {
+            margin-left: 0;
+      }
+}

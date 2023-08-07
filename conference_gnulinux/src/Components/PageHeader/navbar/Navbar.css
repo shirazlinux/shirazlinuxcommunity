@@ -1,0 +1,67 @@
+.navbar {
+      width: 100%;
+      height: 11.5rem;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+}
+.nav__item-container {
+      width: fit-content;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      align-items: center;
+      gap: 2.4rem;
+
+}
+.navbar > img {
+      height: 7rem;
+} 
+.nav__link {
+      width: 13.3rem;
+      height: 4.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1rem;
+      background-color: var(--color-secondary);
+      color: var(--color-primary) !important;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+      font-size: 1.6rem;
+      font-family: Medium-vazir;
+      font-weight: 500;
+      gap: .8rem;
+}
+.navbar_phone {
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      height: 8rem;
+      padding: 0 1rem;
+}
+.phone_nav-line_container {
+      width: 4rem;
+      height: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+}
+.phone_nav-line {
+      width: 100%;
+      height: 3px;
+      background-color: var(--color-white);
+}
+@media (max-width: 555px) {
+      .navbar {
+            display: none;
+      }
+      .navbar_phone {
+            display: flex;
+      }
+}

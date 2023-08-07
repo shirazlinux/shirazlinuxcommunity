@@ -1,0 +1,11 @@
+.workshop {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 15rem;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-page);
+
+}

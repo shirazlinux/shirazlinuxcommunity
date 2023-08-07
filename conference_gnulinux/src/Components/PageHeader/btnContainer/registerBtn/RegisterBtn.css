@@ -1,0 +1,27 @@
+.btn-register {
+      color: var(--color-white);
+      height: 5.6rem;
+      width: 30.6rem;
+      border-radius: 12px;
+      background-color: var(--color-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.2rem;
+      font-family: Medium-vazir;
+      font-weight: 500;
+      color: var(--color-secondary);
+}
+.btn-register > img {
+      margin-left: 1rem;
+}
+@media (max-width: 768px) {
+      .btn-register {
+            margin-bottom: 3rem;
+      }     
+}
+@media (max-width:600px) {
+ .btn-register {
+      width: 25rem;
+ }     
+}

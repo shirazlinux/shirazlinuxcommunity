@@ -1,0 +1,13 @@
+.team__header-info_box {
+    width: 17rem;
+    height: 8rem;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6rem;    
+    font-family: Bold-vazir;
+    font-weight: 700;
+    font-size: 1.8rem;
+}

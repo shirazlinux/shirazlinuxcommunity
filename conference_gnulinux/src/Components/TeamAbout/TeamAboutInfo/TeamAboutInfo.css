@@ -1,0 +1,17 @@
+.team__about-info {
+    width: 26rem;
+    height: 10rem;
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+
+    font-weight: 700;
+    font-size: 2.3rem;
+}

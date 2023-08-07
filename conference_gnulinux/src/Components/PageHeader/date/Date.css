@@ -1,0 +1,69 @@
+.date-container {
+      display: flex;
+      width: 80%;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      align-items: center;
+      /* margin-bottom: 2rem; */
+}
+.date {
+      color: var(--color-white);
+      font-family: Bold-vazir;
+      font-size: 5.7rem;
+      font-weight: 700;
+      margin-bottom: 3rem;
+}
+
+
+.head__title {
+      font-family: Bold-vazir;
+      font-weight: 700;
+      font-size: 5.8rem;
+      padding-bottom: 18px;
+}
+.head__title > span {
+      color: var(--color-primary);
+      position: relative;
+}
+.head__title > span::before {
+      content: "";
+      position: absolute;
+      width: 17rem;
+      height: 2rem;
+      background: url("/main/Vector4.svg") no-repeat;
+      bottom: -2rem;
+}
+
+@media (max-width: 1024px) {
+      .head__title {
+            margin-bottom: 7rem;
+            font-size: 5.1rem;
+      }
+
+      .date {
+            font-size: 5rem;
+      }
+}
+@media (max-width: 768px) {
+      .head__title {
+            font-size: 4.1rem;
+      }
+
+      .date {
+            font-size: 3.5rem;
+      }
+      .date-container {
+            margin-top: 6rem;
+      }
+}
+@media (max-width: 640px) {
+      .head__title{
+            font-size: 2.8rem;
+      }
+      .date-container {
+            width: 90%;
+      }
+      .date {
+            font-size: 2.5rem;
+      }
+}

@@ -1,0 +1,14 @@
+.question__contaienr {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:868px) {
+    .question__contaienr {
+        width: 100%;
+    }
+}

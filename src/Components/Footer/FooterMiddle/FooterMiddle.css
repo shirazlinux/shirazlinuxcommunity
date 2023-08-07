@@ -1,0 +1,28 @@
+.footer__middle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer__logo {
+    height: 20rem;
+    margin-bottom: 2.6rem;
+}
+.footer__about-event {
+    font-size: 1.8rem;
+    color: #696969;
+    line-height: 2.4rem;
+    margin-bottom: 2.4;
+}
+
+@media (max-width:832px){
+    .footer__middle {
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+   
+}

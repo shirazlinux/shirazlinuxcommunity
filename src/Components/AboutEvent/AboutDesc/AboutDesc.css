@@ -1,0 +1,8 @@
+.about__description {
+      height: fit-content;
+      margin-top: 6rem;
+      font-size: 2rem;
+      font-weight: 400;
+      color: #696969;
+      line-height: 4rem;
+}

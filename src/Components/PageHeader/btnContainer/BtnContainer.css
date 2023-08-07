@@ -1,0 +1,28 @@
+.btn-container {
+      width: 70rem;
+      height: 5.6rem;
+      margin-top: 3rem;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+}
+@media (max-width:1440px) {
+      .btn-container {
+            margin-top: 2rem;
+      }
+}
+@media (max-width: 768px) {
+      .btn-container {
+            width: 100%;
+            flex-flow: column nowrap;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+      }     
+}
+@media (max-width:320px) {
+      .btn-container {
+            width: 25rem;     
+      }
+}

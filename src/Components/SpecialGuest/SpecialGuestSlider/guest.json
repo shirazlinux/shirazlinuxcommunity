@@ -1,0 +1,20 @@
+{
+    "guests": [
+        {"id":"1", "name":"امیرعماد میرمیرانی (جادی)", "photo":"main/jadi-mirmirani.jpg", "info":"راست در لینوکس"},
+        {"id":"2", "name":"لقمان آوند", "photo":"main/loqman-avand.jpg", "info":"سخاوت، سنگ بنای تفکر متن‌باز"},
+        {"id":"3", "name":"کیانوش عشایری زاده" , "photo":"main/kianush-ashayeri.jpg", "info":"observibility in application"},
+        {"id":"4", "name":"فهیمه اشرفی", "photo":"main/fahime-ashrafi.jpg", "info":"راه اندازی کلاستر کوبرنتیز با استوریج سف به همراه یک پروژه تستی"},
+        {"id":"5", "name":"حسین سیلانی", "photo":"main/hossein-seilani.png", "info":"معرفی توزیع لینوکس ایرانی predator-os" },
+        {"id":"6", "name":"محمد عابدینی", "photo":"main/mohammad-abedini.jpg", "info":"لاگ چیست ؟"},
+        {"id":"7", "name":"سعید بستان دوست", "photo":"main/saeid-boostan-dost.jpg", "info":"از برنامه ریزی تا برنامه نویسی، حرکت در مسیر موفقیت با اپن سورس"},
+        {"id":"8", "name":"علی امامعلی نژاد", "photo":"main/ali-emamali-nezhad.png", "info":"توسعه بک اند با توسعه معماری TDD (Test Driven Development)"},
+        {"id":"9", "name":"علی باقرنیا", "photo":"main/ali-baghernia.jpg", "info":"ابزارهایی برای تبدیل شدن به فول استک دولوپر"},
+        {"id":"10", "name":"محمد مسلمی", "photo":"main/mohamad-moslemi.jpg", "info":"DPDK"},
+        {"id":"11", "name":"دانیال بهزادی", "photo":"main/danial-behzadi.jpg", "info":"۲۰ سال با گنو"},
+        {"id":"12", "name":"محمد نصیری", "photo":"main/mohammad-nasiri.jpg", "info":"لینوکس یا ویندوز، بدون تعصب"}
+    ],
+    "__comments__": [
+        {"id":"13", "name":"پیکان لاری", "photo":"", "info":"مفهوم گنوم"},
+        {"id":"14", "name":"دانیال سهیل", "photo":"", "info":"سفر درون DNS"}
+    ]
+}

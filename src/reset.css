@@ -1,0 +1,32 @@
+* , *::after , *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+a , a:active a:any-link , a:link {
+      text-decoration: none;
+      color: unset;
+}
+input ,input:focus, textarea  {
+      outline: none;
+      font-family: Regular-vazir;
+}
+html {
+      font-size: 62.5%;
+      scroll-behavior: smooth;
+
+}
+body {
+      width: 100%;
+      height: fit-content;
+      font-family: Regular-vazir;
+}
+button {
+      outline: none;
+      border: none;
+      cursor: pointer;
+
+}
+#root {
+      overflow: hidden;
+}

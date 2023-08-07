@@ -1,0 +1,11 @@
+.nav-item {
+      /* color: var(--color-white); */
+      font-size: 1.8rem;
+      font-weight: 500;
+      font-family: Medium-vazir;
+}
+@media screen and (max-width:300px) {
+      .nav-item {
+            font-size: 1.4rem;
+      }
+}

@@ -1,0 +1,36 @@
+.special-guest__title {
+      width: fit-content;
+      height: fit-content;
+      background: linear-gradient(180deg, rgba(66, 66, 66, 0.54) 0%, #424242 100%);
+      color: var(--color-primary);
+      font-family: Bold-vazir;
+      font-weight: 700;
+      font-size: 2.8rem;
+      line-height: 4.3rem;
+      text-align: center;
+      padding: 1.2rem;
+      border-radius: .8rem;
+      position: relative;
+}
+.special-guest__title::before {
+      content: '';
+      width: 41.7rem;
+      height: 3.5rem;
+      position: absolute;
+      left: 0;
+      bottom: -4.5rem;
+      background: url('/main/Vector5.svg');
+}
+@media (max-width:620px) {
+      .special-guest__title {
+            font-size: 2rem;
+      }     
+      .special-guest__title::before {
+            width: 100%;
+      }
+}
+@media (max-width:320px) {
+ .special-guest__title {
+      font-size: 1.6rem;
+ }     
+}

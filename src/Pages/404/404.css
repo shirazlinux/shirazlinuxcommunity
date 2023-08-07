@@ -1,0 +1,110 @@
+.notfound p{
+    margin-top: 7rem;
+    font-size: 20rem;
+    text-align: center;
+    text-shadow: -1px -1px 0px #8400ff, 2px 3px 3px #E6AD2E;
+    margin-bottom: -42px ;
+}
+.notfound span{
+    text-align: center;
+   margin: 0em auto;
+   font-size: 5rem;
+   display: block;
+}
+
+.notfound button:-webkit-any-link:active {
+    color: blueviolet !important;
+}
+@media (max-width:767px) {
+    .notfound span{
+        font-size: 3rem;
+        margin-top: 3rem;
+    }.notfound p{ 
+        margin-top: 15rem;
+        font-size: 10rem;
+    }
+}
+@media (max-width:375px) {
+    .notfound span{
+        font-size:2.5rem;
+        margin-top: 3rem;
+    } 
+}
+
+.notfound button{
+    text-decoration: none;
+    margin-left: auto;
+    width: max-content;
+    margin-right: auto;
+    display: block;
+    z-index: 500;
+    position: relative;
+    color: blueviolet;
+    font-size: 2rem;
+margin-top: 2rem;
+}
+.notfound button::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    height: 4px;
+    width: 0;
+    background: linear-gradient(90deg,  blueviolet,#E6AD2E);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.notfound button:hover::before {
+    width: 100%;
+} 
+
+ 
+.ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #015871;
+  }
+  
+  .wave {
+    background: url(https://cdn.kcak11.com/codepen_assets/wave_animation/wave.svg) repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  @keyframes swell {
+    0%,
+      100% {
+      transform: translate3d(0, -25px, 0);
+    }
+    50% {
+      transform: translate3d(0, 5px, 0);
+    }
+  }
+  .endWave{
+      display:none;
+  }
+  .wave{
+    width: 100%;
+  }

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Regular-vazir';
+    src: url('./assets/font/Vazir.eot');
+    src: url('./assets/font/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('./assets/font/Vazir.woff') format('woff'),
+         url('./assets/font/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Medium-vazir';
+    src: url('./assets/font/Vazir-Medium.eot');
+    src: url('./assets/font/Vazir-Medium.woff2') format('embedded-opentype'),
+         url('./assets/font/Vazir-Medium.woff') format('woff'),
+         url('./assets/font/Vazir-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Bold-vazir';
+    src: url('./assets/font/Vazir-Bold.eot');
+    src: url('./assets/font/Vazir-Bold.woff2') format('embedded-opentype'),
+         url('./assets/font/Vazir-Bold.woff') format('woff'),
+         url('./assets/font/Vazir-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+:root {
+    --color-primary: #FDBE32;
+    --color-secondary: #424242;
+    --color-tetiary: #F9F9F9;
+    --color-quaternary: #F7F7F7;
+    
+    --color-border-primary: #E6E6E6;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --padding-page: 0 20rem;
+
+}
+@media (max-width: 1540px) {
+    :root {
+        --padding-page: 0 8rem
+    }     
+}
+
+@media (max-width: 768px) {
+    :root {
+        --padding-page: 0 2rem
+    }     
+}
+@media (max-width:600px) {
+    :root {
+        --padding-page: 0 1rem;
+    }
+}

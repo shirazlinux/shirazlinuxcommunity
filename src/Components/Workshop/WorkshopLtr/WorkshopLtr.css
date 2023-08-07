@@ -1,0 +1,46 @@
+.ltr-workshop {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+.ltr-right {
+    width: 60%;
+    height: 100%;
+}
+.ltr__title {
+    font-family: Bold-vazir;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+}
+.ltr__description {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+    margin-top: 1.6rem;
+    color: #696969;
+}
+.ltr__image{
+    height: 20rem;
+}
+@media (max-width:768px) {
+    .ltr-workshop {
+      width: 100%;
+      flex-flow: column-reverse nowrap;
+      align-items: center;
+    }
+    .ltr-right {
+      width: 100%;
+    }
+    .ltr__description {
+      font-size: 2rem;
+    }
+    .ltr__title {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    
+}

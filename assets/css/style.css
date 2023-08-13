@@ -97,7 +97,7 @@ body {
 
 .event {
     padding: 5px;
-    height: 700px !important;
+    height: auto !important;
    
     
 }
@@ -112,6 +112,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     
+    
 }
 .event .postevent .event27 {
     border-radius: 20px;
@@ -120,7 +121,9 @@ body {
     width: 22%;
     text-align: center;
     padding-bottom: 50px;
+    margin-bottom: 20px;
     box-shadow: 10px 10px rgb(244, 147, 147);
+    
 }
 
 .event .postevent .event27 h3{
@@ -150,9 +153,8 @@ body {
 /* conferance */
 
 .conference {
-    
-    height: 700px !important;
     padding: 5px;
+    height: auto !important;
     
 }
 .conference > p {
@@ -174,6 +176,7 @@ body {
     width: 22%;
     text-align: center;
     padding-bottom: 50px;
+    margin-bottom: 20px;
     box-shadow: 10px 10px rgb(43, 103, 27);
 }
 

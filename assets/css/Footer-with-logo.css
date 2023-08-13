@@ -1,0 +1,154 @@
+#myFooter {
+    background-color: #f2582c;
+    color: white;
+}
+
+#myFooter .container{
+    max-width: 100%;
+    background-color: #f2582c;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter .info > p{
+    color: #ffffff;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.7;
+    padding-top: 5px;
+}
+
+
+#myFooter li {
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: rgb(255, 203, 61);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .social-icons{
+    position: relative;
+    width: 100%;
+}
+
+#myFooter .logo{
+    position: absolute;
+    width: 7%;
+    left: 0;
+    top: -15px;
+}
+
+
+#myFooter .second-bar .logo a{
+    border: 2px solid black;
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #fffdfd;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: rgb(130, 244, 124);
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    
+    float:right;
+}
+
+
+.social-icons img {
+    padding: 20px 0 10px 0;
+    width: 5%;
+}
+.social-icons img:hover {
+    opacity: 50%;
+}
+@media  screen and (max-width: 1000px){
+    #myFooter .logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 500px){
+
+    .social-icons p{
+        font-size: 12px;
+    }
+
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+ 
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

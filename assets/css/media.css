@@ -5,6 +5,52 @@
         text-shadow: 1px -1px 3px black;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .eventmore   {
+        text-align: center;
+        background-color: rgb(190, 186, 186);
+        
+       
+    }
+    .eventmore .eventw{
+        
+        box-shadow: #ff3700 0 0 20px;
+        padding-top: 100px;
+        margin: 0 auto;
+        max-width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .eventmore .eventw img {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px 0px;
+        border-radius: 10px;
+        max-width: 90%;
+    }
+
+    .eventmore .eventw h1{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px 0px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 10px !important;
+    }
+    .eventmore .moredata {
+        margin: 10px auto;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 8px 0px;
+    }
+    .eventmore .moredata h2 {
+        padding: 10px;
+        text-align: right;
+    }
+    .eventmore .moredata p{
+        font-family: Vazirmatn, sans-serif !important;
+    }
+    .eventmore .moredata .datam {
+        padding: 5px;
+    }
+}
+
 @media screen and (max-width: 950px){
     .shirazlinux .right1 > h1 {
         /*font-size: 27px;*/

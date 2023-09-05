@@ -10,7 +10,7 @@ class Nav {
         <a href="https://shirazlinuxcommunity.ir/#event">نشست ها</a>
         <a href="https://shirazlinuxcommunity.ir/#conference">همایش ها</a>
         <a href="https://shirazlinuxcommunity.ir/#myFooter">درباره ما</a>
-        <img src="https://shirazlinuxcommunity.ir/assets/jpg/55566.png" alt="">
+        <img src="assets/jpg/55566.png" alt="">
         `; 
     }
 }

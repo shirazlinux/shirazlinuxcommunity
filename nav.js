@@ -15,4 +15,4 @@ class Nav {
     }
 }
 
-new Nav()
+new Nav()   

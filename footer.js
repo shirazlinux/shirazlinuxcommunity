@@ -18,7 +18,7 @@ class Footer {
             <div class="col-sm-3">
                 <h5>دسترسی سریع</h5>
                 <ul>
-                    <li><a href="#">وبلاگ</a></li>
+                    <li><a href="https://shirazlinux.blogix.ir/">وبلاگ</a></li>
                     <li><a href="#">محتوای آزاد</a></li>
                     <li><a href="#">سوالات متداول</a></li>
                 </ul>

@@ -39,11 +39,6 @@
     }
 }
 @media screen and (max-width: 950px){
-    .shirazlinux .right1 > h1 {
-        /*font-size: 27px;*/
-        color: #f1592c;
-        text-shadow: 1px -1px 3px black;
-    }
     .event .postevent .event27 a{
         color: white;
         font-size: 14px;
@@ -56,11 +51,20 @@
     .event .postevent .event27 {
         border-radius: 20px;
         background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 29% !important;
+        margin: 0 0 1% 1%;
+        width: 32% !important;
         text-align: center;
         padding-bottom: 50px;
-        box-shadow: 10px 10px rgb(244, 147, 147);
+        box-shadow: none;
+    }
+    .conference .postconf .conf27 {
+        border-radius: 20px;
+        background-color: rgb(190, 185, 185);
+        margin: 0 0 1% 1%;
+        width: 32% !important;
+        text-align: center;
+        padding-bottom: 50px;
+        box-shadow: none;
     }
     .conference .postconf .conf27 a{
         color: white;
@@ -71,14 +75,6 @@
         border-radius: 10px;
         padding: 3% 25%;
 }
-    .conference .postconf .conf27 {
-        border-radius: 20px;
-        background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 29% !important;
-        text-align: center;
-        padding-bottom: 50px;
-    }
 }
 @media screen and (max-width: 800px){
     .event .postevent {
@@ -105,6 +101,15 @@
         padding-bottom: 50px;
         box-shadow: 10px 10px rgb(244, 147, 147);
     }
+    .conference .postconf .conf27 {
+        border-radius: 20px;
+        background-color: rgb(190, 185, 185);
+        margin: 0 2% 4% 2%;
+        width: 38% !important;
+        text-align: center;
+        padding-bottom: 50px;
+        box-shadow: 10px 10px rgb(43, 103, 27);
+    }
     .conference .postconf {
         padding-bottom: 15px;
         display: flex;
@@ -120,14 +125,6 @@
         border-radius: 10px;
         padding: 3% 25%;
 }
-    .conference .postconf .conf27 {
-        border-radius: 20px;
-        background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 35% !important;
-        text-align: center;
-        padding-bottom: 50px;
-    }
 }
 @media screen and (max-width: 735px){
     .shirazlinux .right1 {
@@ -216,6 +213,17 @@
         display: none;
         
     }
+    .event .postevent .event27 {
+        border-radius: 20px;
+        background-color: rgb(190, 185, 185);
+        margin: 0 0 0 1%;
+        width: 49% !important;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-bottom: 5px;
+        box-shadow: none;
+        
+    }
     .event > p {
         font-size: 28px;
     }
@@ -240,6 +248,17 @@
         border-radius: 10px;
         padding: 3% 25%;
     }
+    .conference .postconf .conf27 {
+        border-radius: 20px;
+        background-color: rgb(190, 185, 185);
+        margin: 0 0 0 1%;
+        width: 49% !important;
+        text-align: center;
+        padding-bottom: 50px;
+        margin-bottom: 5px;
+        box-shadow: none;
+        
+    }
 }
 @media screen and (max-width: 420px){
     .event > p {
@@ -248,11 +267,13 @@
     .event .postevent .event27 {
         border-radius: 20px;
         background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 45% !important;
+        margin: 0 0 0 1%;
+        width: 49% !important;
         text-align: center;
         padding-bottom: 50px;
-        box-shadow: 10px 10px rgb(244, 147, 147);
+        margin-bottom: 5px;
+        box-shadow: none;
+        
     }
     .conference .postconf .conf27 h3{
         font-size: 12px;
@@ -272,23 +293,31 @@
     .conference .postconf .conf27 {
         border-radius: 20px;
         background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 45% !important;
+        margin: 0 0 0 1%;
+        width: 49% !important;
         text-align: center;
         padding-bottom: 50px;
+        margin-bottom: 5px;
+        box-shadow: none;
 
     }  
 }
 @media screen and (max-width: 385px){
-    .event .postevent .event27 {
-        border-radius: 20px;
-        background-color: rgb(190, 185, 185);
-        margin: 0 2% 4% 2%;
-        width: 46% !important;
-        text-align: center;
-        padding-bottom: 50px;
-        box-shadow: 10px 10px rgb(244, 147, 147);
+    .event > p {
+        font-size: 20px;
     }
+    .event .postevent .event27 {
+        .event .postevent .event27 {
+            border-radius: 20px;
+            background-color: rgb(190, 185, 185);
+            margin: 0 0 0 1%;
+            width: 49% !important;
+            text-align: center;
+            padding-bottom: 50px;
+            margin-bottom: 5px;
+            box-shadow: none;
+            
+        }
 }
 @media screen and (max-width: 340px){
     .white {
@@ -297,15 +326,18 @@
         color: white !important;
         font-size: 18px;
     }
-.event .postevent .event27 {
-    border-radius: 20px;
-    background-color: rgb(190, 185, 185);
-    margin: 0 2% 4% 2%;
-    width: 60% !important;
-    text-align: center;
-    padding-bottom: 50px;
-    box-shadow: 10px 10px rgb(244, 147, 147);
-}
+    .event > p {
+        font-size: 18px;
+    }
+    .event .postevent .event27 {
+        border-radius: 20px;
+        background-color: rgb(190, 185, 185);
+        margin: 0 0 2% 0;
+        width: 99% !important;
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
 .conference .postconf .conf27 a{
     color: white;
     font-size: 14px;
@@ -319,8 +351,8 @@
 .conference .postconf .conf27 {
     border-radius: 20px;
     background-color: rgb(190, 185, 185);
-    margin: 0 2% 4% 2%;
-    width: 60% !important;
+    margin: 0 0 2% 0;
+    width: 99% !important;
     text-align: center;
     padding-bottom: 50px;
 
@@ -334,4 +366,7 @@
         color: white !important;
         font-size: 14px;
     }
-}
+    .event > p {
+        font-size: 16px;
+    }
+}}

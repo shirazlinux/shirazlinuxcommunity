@@ -14,6 +14,10 @@ body {
 .clear {
     clear: both;
 }
+hr {
+    padding: 0;
+    margin: 0;
+}
 /*  */
 /* start nav styles */
 .navbar {

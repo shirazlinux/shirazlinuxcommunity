@@ -144,7 +144,6 @@ hr {
     text-align: center;
     padding-bottom: 50px;
     margin-bottom: 20px;
-    box-shadow: 10px 10px rgb(43, 103, 27);
 }
 .conference .postconf .conf27 h3{
     padding-top: 10px;
@@ -167,4 +166,9 @@ hr {
 .conference .postconf .conf27 .cre:hover{
     color: rgb(42, 0, 255);
     background-color: rgb(219, 247, 247);
+}
+
+.row-event {
+    border: 2px solid red;
+    height: 500px;
 }

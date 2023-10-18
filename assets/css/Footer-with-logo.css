@@ -1,6 +1,7 @@
 #myFooter {
     background-color: #f2582c;
     color: white;
+    border-top: 4px solid black;
 }
 
 #myFooter .container{

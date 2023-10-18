@@ -280,14 +280,6 @@
     }  
 }
 @media screen and (max-width: 385px){
-    .navbar a {
-        font-size: 18px;
-        float: right;
-        display: block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-    }
     .event .postevent .event27 {
         border-radius: 20px;
         background-color: rgb(190, 185, 185);
@@ -299,15 +291,12 @@
     }
 }
 @media screen and (max-width: 340px){
-.navbar a {
-    font-size: 14px;
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-}
+    .white {
+        padding: 0 !important;
+        margin: 0;
+        color: white !important;
+        font-size: 18px;
+    }
 .event .postevent .event27 {
     border-radius: 20px;
     background-color: rgb(190, 185, 185);
@@ -339,13 +328,10 @@
 
 }
 @media screen and (max-width: 285px){
-.navbar a {
-    font-size: 12px;
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-}
+    .white {
+        padding: 0 !important;
+        margin: 0;
+        color: white !important;
+        font-size: 14px;
+    }
 }

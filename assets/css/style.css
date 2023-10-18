@@ -49,7 +49,7 @@ body {
 /* start styles slider */
 .carousel-item img {
   width: 100%;
-  height: 750px;
+  height: auto;
 }
 .carousel-caption h5 {
     color: #20024a;

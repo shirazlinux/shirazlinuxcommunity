@@ -19,7 +19,7 @@ class Nav {
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active " aria-current="page" href="https://shirazlinuxcommunity.ir">خانه</a>
+                      <a class="nav-link active " aria-current="page" href="https://shirazlinuxcommunity.ir/#">خانه</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="https://shirazlinuxcommunity.ir/#event">نشست ها</a>

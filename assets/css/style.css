@@ -38,6 +38,7 @@ body {
     font-size: 26px;
 }
 .offcanvas {
+    opacity: 75%;
     border-left: 5px solid rgb(247, 143, 7) !important;
     
 }

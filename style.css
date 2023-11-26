@@ -1,0 +1,35 @@
+@font-face {
+    font-family: vazirmatn;
+    src: url(assets/fonts/webfonts/Vazirmatn-Black.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-Bold.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-ExtraBold.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-ExtraLight.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-Light.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-Medium.woff2)
+    url(assets/fonts/webfonts/Vazirmatn-Regular.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-SemiBold.woff2),
+    url(assets/fonts/webfonts/Vazirmatn-Thin.woff2),
+    url(assets/fonts/webfonts/Vazirmatn[wght].woff2);
+  }
+  
+body {
+    font-family: var(Vazirmatn-Bold) !important;
+}
+
+span {
+    font-family: var(Vazirmatn-Bold) !important;
+}
+
+input {
+    font-family: var(Vazirmatn-Bold) !important;
+}
+
+.title {
+    font-family: var(Vazirmatn-Bold) !important;
+    border: 2px solid red !important;
+}
+
+h1 {
+    font-family: var(Vazirmatn-Bold) !important;
+    border: 2px solid red !important;
+}

@@ -5,38 +5,7 @@ class Footer {
     }
 
     render = () => {
-        return  `<div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h5>اطلاعات بیشتر</h5>
-                <ul>
-                    <li><a href="#">هیت مدیره</a></li>
-                    <li><a href="#">تیم اجرایی</a></li>
-                    <li><a href="https://github.com/shirazlinux/shirazlinuxcommunity">مشارکت در طراحی سایت</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>دسترسی سریع</h5>
-                <ul>
-                    <li><a href="https://shirazlinux.blogix.ir/">وبلاگ</a></li>
-                    <li><a href="#">محتوای آزاد</a></li>
-                    <li><a href="#">سوالات متداول</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>درباره ما</h5>
-                <ul>
-                    <li><a href="https://shirazlinuxcommunity.ir/assets/page/asasname">اساسنامه جامعه</a></li>
-                    <li><a href="#">مرام نامه جامعه</a></li>
-                    <li><a href="#">درباره جامعه</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3 info">
-                <h5>جامعه لینوکسی شیراز</h5>
-                <p>جامعه لینوکسی شیراز، جایی برای افرادی است که به فناوری و جامعه باز و متن باز علاقه‌مندند. با هم‌نشینی در این جامعه، می‌توانید از دانش و تجربیات یکدیگر بهره‌مند شوید و با هم به رشد و پیشرفت جامعه لینوکسی در شیراز کمک کنید.</p>
-            </div>
-        </div>
-    </div>
+        return  `
     <div class="second-bar">
        <div class="container">
        <div class="social-icons">
